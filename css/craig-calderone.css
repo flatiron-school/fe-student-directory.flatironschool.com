@@ -17,17 +17,17 @@ body {
 
 h1
 	{
-	text-shadow: 5px 5px 5px red;
+	text-shadow: 5px 5px 5px #888888;
 	font-size: 30pt
 	}
 
 h2 {
-	text-shadow: 5px 5px 5px red;
+	text-shadow: 5px 5px 5px #888888;
 	font-size: 20pt
 
 }
 h3 {
-	text-shadow: 5px 5px 5px red;
+	text-shadow: 5px 5px 5px #888888;
 	font-size: 20pt
 
 }
