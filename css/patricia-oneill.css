@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+
+
+#logo h1 {
+    font:  4em "Carrois Gothic SC";
+    color: #366;
+    margin: 0px;
+}
+
+#logo h2 {
+    font: 2em "Carrois Gothic SC";
+    color: #366;
+    margin: 0px;
+}
+p {
+    font: normal 1.25em/1.25em Garamond, serif;
+}
+
+footer {
+    font: bold 0.75em Garamond, serif;
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+}
+
+#links a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#links a:visited {
+    color: #366;
+    text-decoration: none;
+}
+
+
