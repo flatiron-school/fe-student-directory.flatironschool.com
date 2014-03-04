@@ -1,0 +1,30 @@
+figcaption {
+	font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+	color: #777;
+	text-align: normal;
+}
+
+#self-intro {
+	font-color: black;
+	font-family: Georgia, "New Times Roman", serif;
+	font-size: 1em;
+	font-color :blue;
+	text-indent: 2em;
+	text-align: normal;
+}
+header {
+	color: gray;
+	font-family: "New Times Roman";
+	font-weight: bold;
+}
+
+.hobbies {
+	font-weight: bold;
+	font-size: 1em;
+	color: maroon;
+}
+#hobbies {
+	color: lime;
+	font-weight: bold;
+
+}
