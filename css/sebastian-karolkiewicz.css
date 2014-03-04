@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Condiment);
+@import url(http://fonts.googleapis.com/css?family=Arizonia);
+@import url(http://fonts.googleapis.com/css?family=Wallpoet);
+
+.Title {
+	font: bold 3em 'Condiment', cursive;
+	color: rgb(173,12,12);
+	background-color: white;
+}
+
+.Heading {
+	color: #0b4f8f;
+	font-size: 2em;
+	font-family: 'Wallpoet', cursive;
+	text-align: center;
+}
+
+footer {
+	font-size: 1.1em;
+	font-family: 'Arizonia', cursive;
+	text-align: right;
+}
+
+p.Text {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+	padding-left: 395px;
+	padding-right: 395px;
+}
+
+header {
+	text-align: center;
+	background-color: #d9eeee
+}
+
+a{
+	color: rgb(173,12,12);
+}
