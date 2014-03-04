@@ -1,0 +1,38 @@
+p {
+	color: white;
+	font-family: Verdana, Georgia;
+	text-shadow: 5px 5px 5px red;
+	font-size: 18pt
+	
+}
+body {
+	text-align: center;
+	background: url("http://www.hdwallpapers.in/walls/new_york_skyline-wide.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1
+	{
+	text-shadow: 5px 5px 5px red;
+	font-size: 30pt
+	}
+
+h2 {
+	text-shadow: 5px 5px 5px red;
+	font-size: 20pt
+
+}
+h3 {
+	text-shadow: 5px 5px 5px red;
+	font-size: 20pt
+
+}
+img {
+	box-shadow: 10px 10px 5px #888888;
+	border: 2px solid;
+	border-radius:25px;
+}
