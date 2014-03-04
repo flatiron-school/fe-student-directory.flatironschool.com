@@ -1,0 +1,72 @@
+/* Spencer Fry's CSS */
+
+body {
+  background: #C0C0C0;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  padding-bottom: 25px;
+}
+
+header h1 {
+  font: bold 2em/2em Arial, sans-serif;
+}
+
+header h1.student a:link,
+header h1.student a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+header h2 {
+  font: italic 1.5em/.75em Arial, sans-serif;
+}
+
+/* Section */
+
+section {
+  padding-bottom: 25px;
+}
+
+section h3 {
+  font: bold 1em/1em Arial, sans-serif;
+}
+
+section p.bio {
+  padding: 10px;
+  width: 400px;
+  margin: auto;
+  font: normal 1em/1em Arial, sans-serif;
+  border: 1px dotted #2D5781;
+}
+
+section p.bio a:link,
+section p.bio a:visited {
+  color: black;
+}
+
+/* Footer */
+
+footer h3 {
+  font: bold 1em/1em Arial, sans-serif;
+}
+
+footer ul.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font: normal 1em/1.3em Arial, sans-serif;
+}
+
+footer ul.footer-links li {
+  display: inline;
+}
+
+footer ul.footer-links li a:link,
+footer ul.footer-links li a:visited {
+  padding: 0 .5em;
+  color: #2D5781;
+}
