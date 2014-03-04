@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Sacramento);
+body
+{
+/*background:url(../images/hoa-wallpaper.jpg);
+background-repeat:no-repeat;
+background-size: 90% 90%;
+background-clip: content-box;
+background-position: center;*/
+background-color: rgb(255,255,243);
+}
+figcaption {
+	font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+	color: #777;
+	text-align: normal;
+	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
+}
+
+#main-content {
+	font-color: black;
+	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
+	font-size: 1em;
+	font-color :blue;
+	text-align: normal;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 1em;
+	float: left;
+}
+#header {
+	color: gray;
+	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
+	font-weight: bold;
+	text-align: center;
+	float: top;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1em;
+	color: black;
+	text-align: left;
+}
+ul {
+	color: teal;
+	font-weight: normal;
+	text-align: left;
+}
+#sidebar {
+	text-align: center;
+	float: center;
+}
+
