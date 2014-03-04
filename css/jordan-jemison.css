@@ -1,0 +1,12 @@
+* {
+  background: yellow;
+}
+.text {
+  color: red;
+  text-align: center;
+}
+#profilepic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

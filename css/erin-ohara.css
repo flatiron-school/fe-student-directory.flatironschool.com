@@ -1,0 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Gafata);
+body {
+	margin: 50px;
+	font-family: 'Gafata', Arial, sans-serif;
+}
+
+h1 {
+	color: #128DAB;
+}
+
+p {
+	color: #777777;
+}

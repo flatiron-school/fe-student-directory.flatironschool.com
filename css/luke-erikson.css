@@ -1,0 +1,72 @@
+body {
+	background-color: #FEF6E4;
+}
+
+h1 {
+	font-size: 22px;
+	font-family: Helvetica, Arial, sans-serif;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+#main-name {
+	padding: 20px 20px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Times New Roman', Georgia, serif;
+	font-size: 1.2em;
+	line-height: 1.5
+;
+}
+
+.strong {
+	font-size: .7em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#family-portrait {
+	-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+	filter: gray; filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+
+/*	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;*/
+
+	border:5px solid;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+a {
+	font-size: .7em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a:link {
+	color:black;
+	border-bottom: 1px solid #000;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}  
+a:hover {
+	background-color: black;
+	color: white;
+} 
+a:active {
+	background-color: black;
+	color: gray;
+}
