@@ -1,5 +1,9 @@
-var $container = $('#students');
-// initialize
-$container.masonry({
-  itemSelector: '.student'
+$(function() {
+
+  var $container = $('#students');
+  // initialize
+  $container.masonry({
+    itemSelector: '.student'
+  });
+
 });
