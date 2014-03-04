@@ -1,0 +1,46 @@
+p {
+	font-family: sans-serif;
+}
+
+h1, h2 {
+	font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+	font-style: italic;
+}
+
+a {
+	color: #ff4629;
+}
+a:hover {
+	color: #992a18;
+}
+
+body {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0px;
+}
+
+img {
+	border:1px solid black;
+}
+
+header {
+	text-align: center;
+	background: url(../images/matt-cassity-background.gif);
+	padding: 40px;
+}
+
+.desc {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+footer {
+	background: #fdfdcd; 
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
