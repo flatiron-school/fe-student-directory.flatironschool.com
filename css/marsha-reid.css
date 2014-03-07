@@ -1,0 +1,16 @@
+/* this is a comment 
+selector { 
+property:value; 
+property:value; */
+
+body { 
+
+font-family: arial;
+background-color: #DB7093;
+color: #FFFFFF;
+}
+
+h1 {
+	color:#FFFFFF;
+	border-bottom: 1px solid #FFFFFF
+}
