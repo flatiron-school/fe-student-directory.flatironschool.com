@@ -7,10 +7,15 @@ body {
 
 font-family: arial;
 background-color: #DB7093;
-color: #FFFFFF;
+color: #3FFFFF;
 }
 
 h1 {
 	color:#FFFFFF;
-	border-bottom: 1px solid #FFFFFF
+	border-bottom: 1px solid #FFFFFF;
+	margin: 20px;
+}
+h2 {
+	color: #FFFFFF;
+	margin: 20px;
 }
