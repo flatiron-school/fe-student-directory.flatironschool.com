@@ -1,52 +1,73 @@
 @import url(http://fonts.googleapis.com/css?family=Sacramento);
-body {
-/*background:url(../images/hoa-wallpaper.jpg);
-background-repeat:no-repeat;
-background-size: 90% 90%;
-background-clip: content-box;
-background-position: center;*/
-background-color: rgb(255,255,243);
-}
-figcaption {
-	font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
-	color: #777;
-	text-align: normal;
-	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
+@import url(http://fonts.googleapis.com/css?family=Sail);
+body, html {
+background-color: rgb(255,255,243); 
+height: 100%;
+min-height: 100%;
+font-family: 'Sail', cursive;
+padding: 20px 50px 10px 50px;
+font-size: 20px;
 }
 
-#main-content {
-	font-color: black;
-	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
-	font-size: 1em;
-	font-color :blue;
+figcaption {
+	font-size: 25px;
+	color: black;
 	text-align: normal;
-	text-align: center;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 1em;
-	float: left;
+	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
 }
 #header {
-	color: gray;
+	color: black;
+	font-family: 'Sail', cursive;
+	font-weight: bolder;
+	text-align: left;
+	font-size: 50px;
+	line-height: 0%;
+	padding: 1%;
+}
+/** {
+	box-sizing: border-box;		
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}*/
+.self {
+	text-align: justify;
+	line-height: 200%;
+}
+#footer {
+	background-color: #FFCBE8;
 	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
-	font-weight: bold;
 	text-align: center;
-	float: top;
+	float: bottom;
+	font-size: 25px;
+	width: 100%;
+	padding: 5px;
+	margin-top: 30px;
+}
+figure {
+	float: right;
+	display: block;
+	margin: 0 10px 10px 10px;
+	text-align: center;
+	font-size: 20px
+	position:relative;
+	top: 44px;
+	margin: 42px 0px 20px 30px;
+}
+th, td{
+	padding: 15px;
+}
+th {
+	text-align: left;
+}
+table {
+	width: 100%;
+	line-height: 50%;
 }
 
-h2 {
-	font-weight: bold;
-	font-size: 1em;
-	color: black;
-	text-align: left;
-}
-ul {
-	color: teal;
-	font-weight: normal;
-	text-align: left;
-}
-#sidebar {
-	text-align: center;
-	float: center;
-}
+
+
+
+
+
+
 
