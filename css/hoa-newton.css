@@ -5,8 +5,9 @@ background-color: rgb(255,255,243);
 height: 100%;
 min-height: 100%;
 font-family: 'Sail', cursive;
-padding: 20px 50px 10px 50px;
 font-size: 20px;
+width: 960px;
+margin: 20px auto 20px;
 }
 
 figcaption {
@@ -34,35 +35,66 @@ figcaption {
 	line-height: 200%;
 }
 #footer {
-	background-color: #FFCBE8;
+	/*background-color: #FFCBE8;*/
 	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
 	text-align: center;
-	float: bottom;
 	font-size: 25px;
-	width: 100%;
 	padding: 5px;
 	margin-top: 30px;
+	display: block;
+	width: 100%;
+	clear: both;
 }
 figure {
-	float: right;
+	float: left;
 	display: block;
-	margin: 0 10px 10px 10px;
+	margin: 10px 10px 10px 0;
 	text-align: center;
 	font-size: 20px
-	position:relative;
-	top: 44px;
+	
+	/*top: 44px;
 	margin: 42px 0px 20px 30px;
+	*/
 }
-th, td{
-	padding: 15px;
+.details {
+	line-height: 200%;
 }
-th {
-	text-align: left;
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
 }
-table {
-	width: 100%;
-	line-height: 50%;
+
+
+.col-3-1 {
+	width: 32%;
+	float: left;
 }
+.col-3-2 {
+	width: 38%;
+	float: left;
+}
+.col-3-3 {
+	width: 24%;
+	float: left;
+}
+[Class*="col-"] {
+	margin-left: 2%;
+}/*selects any element with class="col-"*/
+
+.first {
+	margin-left: 0%;
+}/*the first column will not have margin*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
