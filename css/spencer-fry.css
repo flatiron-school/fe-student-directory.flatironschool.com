@@ -1,13 +1,24 @@
 /* Spencer Fry's CSS */
 
-body {
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.wrapper {
   background: #C0C0C0;
-  text-align: center;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 /* Header */
 
 header {
+  text-align: center;
   padding-bottom: 25px;
 }
 
@@ -25,48 +36,41 @@ header h2 {
   font: italic 1.5em/.75em Arial, sans-serif;
 }
 
-/* Section */
+/* Sidebar */
 
-section {
-  padding-bottom: 25px;
+#sidebar {
+  float: left;
+  width: 180px;
+  padding: 0 10px;
 }
 
-section h3 {
+#sidebar h3 {
   font: bold 1em/1em Arial, sans-serif;
 }
 
-section p.bio {
-  padding: 10px;
-  width: 400px;
-  margin: auto;
-  font: normal 1em/1em Arial, sans-serif;
-  border: 1px dotted #2D5781;
-}
-
-section p.bio a:link,
-section p.bio a:visited {
-  color: black;
-}
-
-/* Footer */
-
-footer h3 {
-  font: bold 1em/1em Arial, sans-serif;
-}
-
-footer ul.footer-links {
+#sidebar ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
   font: normal 1em/1.3em Arial, sans-serif;
 }
 
-footer ul.footer-links li {
-  display: inline;
+/* Main */
+
+#main {
+  float: left;
+  width: 824px;
+  margin-bottom: 25px;
 }
 
-footer ul.footer-links li a:link,
-footer ul.footer-links li a:visited {
-  padding: 0 .5em;
-  color: #2D5781;
+#main h3 {
+  font: bold 1em/1em Arial, sans-serif;
+}
+
+#main p { 
+  font: normal 1em/1em Arial, sans-serif;
+}
+
+#main p a:link,
+#main p a:visited {
+  color: black;
 }
