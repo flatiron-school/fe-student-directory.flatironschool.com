@@ -2,6 +2,15 @@ body {
 	background-color: #FEF6E4;
 }
 
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
 h1 {
 	font-size: 22px;
 	font-family: Helvetica, Arial, sans-serif;
@@ -14,11 +23,21 @@ h1 {
 	text-align: center;
 }
 
+footer {
+	text-align: center;
+	font-size: .75em;
+	color: #555;
+	padding: 10px 0 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 80px 0 30px;
+}
+
 p {
 	font-family: 'Times New Roman', Georgia, serif;
 	font-size: 1.2em;
-	line-height: 1.5
-;
+	line-height: 1.5;
 }
 
 .strong {
@@ -70,3 +89,28 @@ a:active {
 	background-color: black;
 	color: gray;
 }
+
+/* COLUMN LAYOUT*/
+
+.col-1 {
+	float: left;
+	width: 33.66%;
+}
+
+.col-2 {
+	float: left;
+	width: 46.33%;
+/*	padding: 10px;
+*/}
+
+[class*="col-"] {
+  margin: 5%;
+}
+
+.first-p {
+	margin-top: 0;
+}
+
+/*#imagebox {
+	padding-top: 40px;
+}*/
