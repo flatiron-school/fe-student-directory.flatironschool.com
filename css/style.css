@@ -41,7 +41,7 @@ body {
   font-size: 1.1em;
   display: block;
   padding: 5px 20px 20px;
-  color: black;
+  color: rgba(33, 132, 224, 1);
   text-decoration: none;
   text-align: center;
 }
