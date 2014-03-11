@@ -1,5 +1,6 @@
 p {
 	font-family: sans-serif;
+	text-align: center;
 }
 
 h1, h2 {
@@ -8,6 +9,11 @@ h1, h2 {
 
 h2 {
 	font-style: italic;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: sans-serif;
 }
 
 a {
@@ -25,22 +31,72 @@ body {
 
 img {
 	border:1px solid black;
+	width: 100%;
 }
 
 header {
-	text-align: center;
-	background: url(../images/matt-cassity-background.gif);
-	padding: 40px;
-}
-
-.desc {
-	padding-left: 100px;
-	padding-right: 100px;
-}
+ 	background: url(../images/matt-cassity-background.gif);
+ 	text-align: center;
+ 	padding: 20px;
+ }
 
 footer {
-	background: #fdfdcd; 
-	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
+ 	padding: 25px 0;
 }
+
+.yellow {
+	background: #ffffcc;
+}
+
+/* Layout */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.col-1 {
+	float: left;
+	width: 47.5%;
+}
+
+.col-2 {
+	float: left;
+	width: 100%;
+ }
+
+[class*="col-"] {
+	margin-left: 5%;
+	padding: 20px 0;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+
+
+
+
+
