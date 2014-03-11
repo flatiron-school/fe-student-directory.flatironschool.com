@@ -11,3 +11,15 @@ h1 {
 p {
 	color: #777777;
 }
+
+/* Positioning Classes */
+
+.col-1 {
+	float: right;
+	width: 33%;
+}
+
+.col-2 {
+	float: left;
+	width: 50%;
+}
