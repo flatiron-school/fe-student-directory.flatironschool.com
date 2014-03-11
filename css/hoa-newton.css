@@ -13,7 +13,7 @@ margin: 20px auto 20px;
 figcaption {
 	font-size: 25px;
 	color: black;
-	text-align: normal;
+	text-align: center;
 	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
 }
 #header {
@@ -24,6 +24,14 @@ figcaption {
 	font-size: 50px;
 	line-height: 0%;
 	padding: 1%;
+}
+.fixed {
+	position: fixed;
+	top: 10px;
+	right: 30px;
+	float: right;
+	color: #FFCBE8;
+	font-size: 50px;
 }
 /** {
 	box-sizing: border-box;		
