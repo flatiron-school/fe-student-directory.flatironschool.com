@@ -1,52 +1,113 @@
 @import url(http://fonts.googleapis.com/css?family=Sacramento);
-body {
-/*background:url(../images/hoa-wallpaper.jpg);
-background-repeat:no-repeat;
-background-size: 90% 90%;
-background-clip: content-box;
-background-position: center;*/
-background-color: rgb(255,255,243);
-}
-figcaption {
-	font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
-	color: #777;
-	text-align: normal;
-	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
+@import url(http://fonts.googleapis.com/css?family=Sail);
+body, html {
+background-color: rgb(255,255,243); 
+height: 100%;
+min-height: 100%;
+font-family: 'Sail', cursive;
+font-size: 20px;
+width: 960px;
+margin: 20px auto 20px;
 }
 
-#main-content {
-	font-color: black;
-	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
-	font-size: 1em;
-	font-color :blue;
-	text-align: normal;
+figcaption {
+	font-size: 15px;
+	color: black;
 	text-align: center;
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-top: 1em;
-	float: left;
+	font-family: Georgia, "New Times Roman", serif;
 }
 #header {
-	color: gray;
-	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
-	font-weight: bold;
+	color: black;
+	font-family: 'Sail', cursive;
+	font-weight: bolder;
+	text-align: left;
+	font-size: 50px;
+	line-height: 0%;
+	padding: 1%;
+}
+.fixed {
+	position: fixed;
+	top: 10px;
+	right: 30px;
+	float: right;
+	color: #FFCBE8;
+	font-size: 50px;
+}
+/** {
+	box-sizing: border-box;		
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}*/
+.self {
+	text-align: justify;
+	line-height: 200%;
+}
+#footer {
+	/*background-color: #FFCBE8;*/
+	font-family: Georgia, "New Times Roman", serif;
 	text-align: center;
-	float: top;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 30px;
+	display: block;
+	width: 100%;
+	clear: both;
+}
+figure {
+	float: left;
+	display: block;
+	margin: 10px 10px 10px 0;
+	text-align: center;
+	font-size: 20px
+	
+	/*top: 44px;
+	margin: 42px 0px 20px 30px;
+	*/
+}
+.details {
+	line-height: 200%;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
 }
 
-h2 {
-	font-weight: bold;
-	font-size: 1em;
-	color: black;
-	text-align: left;
+
+.col-3-1 {
+	width: 32%;
+	float: left;
 }
-ul {
-	color: teal;
-	font-weight: normal;
-	text-align: left;
+.col-3-2 {
+	width: 38%;
+	float: left;
 }
-#sidebar {
-	text-align: center;
-	float: center;
+.col-3-3 {
+	width: 24%;
+	float: left;
 }
+[Class*="col-"] {
+	margin-left: 2%;
+}/*selects any element with class="col-"*/
+
+.first {
+	margin-left: 0%;
+}/*the first column will not have margin*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
