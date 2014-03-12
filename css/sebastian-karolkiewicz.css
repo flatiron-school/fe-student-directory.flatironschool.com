@@ -26,8 +26,8 @@ p.Text {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	font-size: 1.25em;
 	text-align: center;
-	padding-left: 395px;
-	padding-right: 395px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 header {
@@ -35,6 +35,47 @@ header {
 	background-color: #d9eeee
 }
 
-a{
+a {
 	color: rgb(173,12,12);
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+.col-1 {
+	float: left;
+	width: 49.6%;
+}
+
+[class*="col-"] {
+	margin-left: ;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.border_right {
+	border-right: 6px solid #d9eeee;
+	padding-right: 0px;
+}
+
+.border-top {
+	border-top: 6px solid #d9eeee;
 }
