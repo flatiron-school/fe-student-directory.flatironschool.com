@@ -1,5 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 
+/*/// FIXES ///*/
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
 body {
   background: #FFF;
 }
@@ -14,9 +34,22 @@ body {
 p {
     font: 1em "Josefin Sans", Arial;
     color: #777;
+    width: 49%;
+    padding: 1%;
+    margin: 1% 1% 1% 0; 
+    border: 1px dashed #777;
+    float: left;
+}
+
+p.first {
+    margin: 1% 1% 1% 0; 
 }
 
 a:hover, a:visited, a:active {
   color:#777;
   text-decoration:none;
+}
+
+section {
+
 }
