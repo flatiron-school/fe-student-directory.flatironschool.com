@@ -11,10 +11,10 @@ margin: 20px auto 20px;
 }
 
 figcaption {
-	font-size: 25px;
+	font-size: 15px;
 	color: black;
 	text-align: center;
-	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
+	font-family: Georgia, "New Times Roman", serif;
 }
 #header {
 	color: black;
@@ -44,9 +44,9 @@ figcaption {
 }
 #footer {
 	/*background-color: #FFCBE8;*/
-	font-family: 'Sacramento', cursive, Georgia, "New Times Roman", serif;
+	font-family: Georgia, "New Times Roman", serif;
 	text-align: center;
-	font-size: 25px;
+	font-size: 15px;
 	padding: 5px;
 	margin-top: 30px;
 	display: block;
