@@ -1,6 +1,7 @@
 p {
 	font-family: sans-serif;
 	text-align: center;
+	font-size: 100%;
 }
 
 h1, h2 {
@@ -93,7 +94,23 @@ footer {
   clear: both;
 }
 
+li {
+	padding-bottom: 20px;
+}
 
+/* Responsive */
+@media screen and (max-width: 960px) {
+	[class*="col-"] {
+		float: left;
+		width: 100%;
+		margin-left: 0%;
+	}
+	.wrapper {
+		width: 100%;
+	}
+}
+
+ 
 
 
 
