@@ -1,0 +1,30 @@
+h1{
+	font-family: "Trebuchet MS", "Lucida Sans Serif";
+	color: black;
+}
+
+h2{
+	font-family: "Arial Narrow", "MS Sans Serif";
+	color: black;
+}
+
+p{
+	/*font-size: 1em;
+	line-height: 1.5em;*/
+	font: normal 1em/1.5em  "Trebuchet MS", "Lucida Sans Unicode", Tahoma;
+
+}
+#firstname {
+	color: blue;
+	font-style: italic;
+	}
+
+#mgf {
+	border: solid;
+	border-color: black;
+	padding: 4px;
+	margin-top: 24px;
+}
+#header {
+	background: orange;
+}
