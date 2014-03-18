@@ -1,5 +1,7 @@
 /* Spencer Fry's CSS */
 
+/* Global */
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -54,6 +56,11 @@ header h2 {
   font: normal 1em/1.3em Arial, sans-serif;
 }
 
+#sidebar ul a:link,
+#sidebar ul a:visited {
+  color: #000;
+}
+
 /* Main */
 
 #main {
@@ -73,4 +80,40 @@ header h2 {
 #main p a:link,
 #main p a:visited {
   color: black;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 400px) {
+  body {
+    background: #000;
+  }
+
+  .wrapper {
+    width: 400px;
+  }
+
+  header h1.student a:link,
+  header h1.student a:visited {
+    color: #fff;
+  }
+
+  header h2 {
+    color: #fff;
+  }
+
+  #sidebar {
+    float: none;
+    width: 400px;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #000;
+  }
+  
+  #main {
+    float: none;
+    width: 400px;
+    padding: 10px;
+    margin: 0;
+  }
 }
