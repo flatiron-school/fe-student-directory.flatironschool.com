@@ -2,19 +2,62 @@
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 
 
-#logo h1 {
-    font:  4em "Carrois Gothic SC";
+/*/// LAYOUT ///*/
+
+.container {
+    padding: 10px;
+    background: url(../images/patricia-oneill-background.jpg);
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-1 {
+    width: 18%;
+    float: left;
+}
+
+.col-2 {
+    width: 75%;
+    float: left;
+}
+/*.col-3 {
+    width: 100%
+}*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.first {
+    margin-left: 0;
+}
+
+
+
+h1 {
+    font: 3em "Carrois Gothic SC", sans-serif;
     color: #366;
     margin: 0px;
 }
 
-#logo h2 {
-    font: 2em "Carrois Gothic SC";
+h2 {
+    font: 2em "Carrois Gothic SC", sans-serif;
     color: #366;
     margin: 0px;
 }
 p {
-    font: normal 1.25em/1.25em Garamond, serif;
+    font: normal 1em/1.25em Garamond, serif;
 }
 
 footer {
@@ -22,16 +65,17 @@ footer {
     text-align: center;
 }
 
-.container {
-    margin: 10px;
-}
-
-#links a:link {
-    color: black;
+a:link {
+    color: #366;
     text-decoration: none;
 }
 
-#links a:visited {
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:visited {
     color: #366;
     text-decoration: none;
 }
