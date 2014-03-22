@@ -17,6 +17,25 @@ body {
 	     url('../fonts/bebasneue/bebasneue-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 	}
 
+/*Regular Size Everything*/
+.container {
+	position: fixed;
+}
+
+.row{
+	width: 100%;
+}
+
+.col-left{
+	width: 100%;
+	/*background-color: blue;*/
+}
+
+.col-right{
+	width: 50%;
+	/*background-color: green;*/
+}
+
 #delay1 {
   position: relative;
   transition-property: font-size;
@@ -32,41 +51,12 @@ body {
   font-size: 300%;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
-	color: #333;
-	font-size: 125%;
-}
 
-h1.title {
-	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
-	color: #333;
-	font-size: 500%;
-}
-h2.emphasis {
-	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
-	color: #333;
-	display: block;
-	font-size: 250%;
-	line-height: 50%;
-	margin-top: -2%;
-}
-
-ul.emphasis {
-	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
-	color: #333;
-
-}
 
 /*Links*/
 ul {
 	list-style-type: none;
 }
-
-/*li{
-	display: inline;
-	margin: 0 5px;
-}*/
 
 a {
 	color: #333;
@@ -87,3 +77,173 @@ img {
 	width: 30%;
 	margin: 20px;
 }
+
+/*Fonts*/
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 125%;
+}
+
+h1.title {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 500%;
+}
+h2.emphasis {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	display: block;
+	font-size: 250%;
+	margin-top: -2%;
+}
+
+ul.emphasis {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+
+}
+
+button.surprise{
+	padding: 10px 15px;
+	border-radius: 10px;
+	background-color: pink;
+	border: 2px solid red;
+	color: red;
+	font-size: 30px;
+}
+
+/*Small Size Screens Portrait*/
+
+@media only screen and (min-width: 240px){
+
+#delay1 {
+  position: relative;
+  transition-property: font-size;
+  transition-duration: 500ms;
+  transition-delay: 100ms;
+  font-size: 150%;
+}
+
+#delay1:hover {
+  transition-property: font-size;
+  transition-duration: 500ms;
+  transition-delay: 100ms;
+  font-size: 250%;
+}
+
+h1.title {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 250%;
+}
+
+h2.emphasis {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	display: block;
+	font-size: 125%;
+	line-height: 125%;
+	margin-top: -2%;
+}
+
+img {
+	display: inline;
+	float: left;
+	width: 75%;
+	margin: 5px;
+}
+
+}
+
+/* Landscape Size Small Screens*/
+
+@media only screen and (min-width: 480px){
+#delay1 {
+  position: relative;
+  transition-property: font-size;
+  transition-duration: 500ms;
+  transition-delay: 100ms;
+  font-size: 125%;
+}
+
+#delay1:hover {
+  transition-property: font-size;
+  transition-duration: 500ms;
+  transition-delay: 100ms;
+  font-size: 200%;
+}
+
+h1.title {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 375%;
+}
+
+h2.emphasis {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	display: block;
+	font-size: 200%;
+	line-height: 100%;
+	margin-top: -2%;
+}
+
+img {
+	display: inline;
+	float: left;
+	width: 50%;
+	margin: 10px;
+}
+
+}
+
+/*Tablet Size*/
+
+@media only screen and (min-width: 768px){
+	#delay1 {
+  position: relative;
+  transition-property: font-size;
+  transition-duration: 500ms;
+  transition-delay: 100ms;
+  font-size: 125%;
+  line-height: 100%;
+}
+
+#delay1:hover {
+  transition-property: font-size;
+  transition-duration: 500ms;
+  transition-delay: 100ms;
+  font-size: 175%;
+  line-height: 100%;
+}
+
+h1.title {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 375%;
+}
+
+h2.emphasis {
+	font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	display: block;
+	font-size: 200%;
+	line-height: 100%;
+	margin-top: -2%;
+}
+
+img {
+	display: inline;
+	float: left;
+	width: 25%;
+	margin: 10px;
+}
+
+}
+
+
+
+
+
+
