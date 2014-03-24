@@ -1,24 +1,74 @@
-a {
-  display: block;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(225,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(225,255,255,1)), color-stop(7%,rgba(225,255,255,1)), color-stop(12%,rgba(225,255,255,1)), color-stop(12%,rgba(253,255,255,1)), color-stop(30%,rgba(230,248,253,1)), color-stop(54%,rgba(200,238,251,1)), color-stop(75%,rgba(190,228,248,1)), color-stop(100%,rgba(177,216,245,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+  background-attachment: fixed;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.student {
   float: left;
-  /*border-top: 2px solid #efefef;
-  border-right: 2px solid #efefef;
-  border-bottom: 2px solid #ccc;
-  border-left: 2px solid #ccc;*/
-  padding: 20px;
-  color: black;
+  width: 18%;
+  height: auto;
+  border-top: 1px dotted #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 1%;
+  padding-top: 10px;
+  background: white;
+  -webkit-box-shadow: 0 2px 5px #ccc;
+  -moz-box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.student a {
+  font-size: 1.1em;
+  display: block;
+  padding: 5px 20px 20px;
+  color: rgba(33, 132, 224, 1);
   text-decoration: none;
-  margin-right: 3px;
-  margin-bottom: 7px;
-  /*-webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  -webkit-box-shadow: 0 5px 10px #ccc;
-  -moz-box-shadow: 0 5px 10px #ccc;
-  box-shadow: 0 5px 10px #ccc;*/
   text-align: center;
 }
 
-a:hover {
+.student a:hover {
   font-weight: bold;
+}
+
+.student img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 980px) {
+  .student { width: 23%; }
+}
+
+@media only screen and (max-width: 780px) {
+  .student { width: 31.333%; }
+}
+
+@media only screen and (max-width: 650px) {
+  .student { width: 48%; }
+}
+
+@media only screen and (max-width: 450px) {
+  .student { width: 98%; }
 }

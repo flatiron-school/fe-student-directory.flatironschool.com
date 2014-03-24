@@ -2,12 +2,17 @@ header, section, footer, nav, article, figure, figcaption, hgroup {
 	display: block;
 }
 
-h1, h2 {
+h1 {
 	font-family: "Trebuchet MS", "Lucida Console", "MS Sans Serif";
 	font-weight: bold;
-	margin: 2px auto;
+	margin: 3px auto;
 }
 
+h2 {
+	font-family: "Trebuchet MS", "Lucida Console", "MS Sans Serif";
+	font-weight: normal;
+	margin: 1px auto;
+}
 
 p {
 	/*font-size: 1em;
@@ -61,5 +66,5 @@ img {
 footer {
 	clear: both;
 	color: orange;
-	text-align: center;
+	text-align: right;
 }

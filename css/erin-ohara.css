@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Gafata);
+body {
+	margin: 50px;
+	font-family: 'Gafata', Arial, sans-serif;
+}
+
+h1 {
+	color: #128DAB;
+}
+
+p {
+	color: #777777;
+}
+
+/* Positioning Classes */
+
+.col-1 {
+	float: right;
+	width: 33%;
+}
+
+.col-2 {
+	float: left;
+	width: 50%;
+}

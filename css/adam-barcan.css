@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+/* //// GLOBAL /////*/
+body {
+  background: #FFF;
+}
+.adam {
+    font: bold 2em "Josefin Sans", Arial;
+    color: #555;
+    background: #E8E8E8;
+    border: 1px dashed #777;
+    opacity: 0.7;
+    padding: 5px;
+}
+
+p {
+    font: 1em "Josefin Sans", Arial;
+    color: #777;
+    width: 49%;
+    padding: 1%;
+    margin: 1% 1% 1% 0; 
+    border: 1px dashed #777;
+    float: left;
+}
+
+p.first {
+    margin: 1% 1% 1% 0; 
+}
+
+.adam:hover, p:hover{
+   border: 1px solid #777;
+}
+/*///  LINKS //*/
+
+a:hover, a:visited, a:active {
+  color:#777;
+  text-decoration:none;
+}
+
+section {
+
+}
+
+/*/////// SOCIAL ////////*/
+
+#social {
+  position: fixed;
+  top: 40px;
+  left: 300px;
+  width: 40px;
+  z-index: 2;
+}
+
+
+/*/// FIXES ///*/
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/*//// RESPONSIVE ////*/
+
+@media only screen and (max-width: 700px){
+  p {
+    width: 100%;
+    margin-left: 0;
+    float: none; 
+}
+}
