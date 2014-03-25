@@ -26,7 +26,26 @@ p {
 p.first {
     margin: 1% 1% 1% 0; 
 }
-
+button {
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    color: #777;
+    font: bold .7em Verdana, Arial, Sans-Serif;
+    box-shadow: 3px 3px 3px #777;
+}
+button:focus {
+    outline: 0;
+}
+button:hover {
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #777;
+    color: white;
+    font: bold .7em Verdana, Arial, Sans-Serif;
+    box-shadow: 3px 3px 3px #777;
+  
+}
 .adam:hover, p:hover{
    border: 1px solid #777;
 }

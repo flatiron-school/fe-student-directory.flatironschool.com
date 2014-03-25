@@ -1,0 +1,14 @@
+$(function(){
+  $('button#get_lost').click(function(){
+    $('img').fadeOut(5000);
+    $('h3').fadeOut(4000);
+     $('h2').fadeOut(3000);
+      $('p').fadeOut(2000);
+  });
+   $('button#come_back').click(function(){
+    $('img').fadeIn(5000);
+    $('h3').fadeIn(4000);
+     $('h2').fadeIn(3000);
+      $('p').fadeIn(2000);
+  });
+});
