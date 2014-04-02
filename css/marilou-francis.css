@@ -6,12 +6,14 @@ h1 {
 	font-family: "Trebuchet MS", "Lucida Console", "MS Sans Serif";
 	font-weight: bold;
 	margin: 3px auto;
+	color: #EE5C42;
 }
 
 h2 {
 	font-family: "Trebuchet MS", "Lucida Console", "MS Sans Serif";
 	font-weight: normal;
 	margin: 1px auto;
+	color: #FF7256;
 }
 
 p {
@@ -20,22 +22,24 @@ p {
 	font: normal 1em/1.5em  "Josefin Sans", "Lucida Console", "Trebuchet MS", "Lucida Sans Unicode", "Tahoma";
 }
 .firstname {
-	color: lightblue;
 	font-style: italic;
+	text-decoration: underline;
+	color: lightblue;
 }
 
 img {
-	display: block;
+	display: inline-block;
 	float: left;
 	border: solid;
-	border-color: red;
-	border: 10px;
+	border-color: orange;
+	border-width: 10px;
 	margin: 0 20px 10px 0;
-	width: 30%;
+	width: 20%;
+	position: relative;
 }
 
 
-.clearfix:after {
+.clearfix: after {
 	content: ".";
 	display: block;
 	clear:both;
@@ -43,8 +47,9 @@ img {
 	height: 0;
 }
 
+
 #wrapper {
-	width: 960px;
+	width: 960px
 	margin: 5px 10px;
 	text-align: left;
 	background-color: black;
@@ -65,6 +70,25 @@ img {
 
 footer {
 	clear: both;
-	color: orange;
+	background-color: gray;
+	color: #A78D84;
+	width: 100;
 	text-align: right;
+	margin-right: 25%;
+}
+
+/*** responsive layout */
+
+@media only screen and (max-width: 780px) {
+
+	#wrapper {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+
+	body, header, footer {
+		font-size: 85%;
+	}
 }
