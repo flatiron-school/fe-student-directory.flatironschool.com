@@ -1,5 +1,5 @@
 ---
-tags: typography, images, links, git, forking, pull requests, jQuery, layout
+tags: typography, images, links, git, forking, pull requests, jQuery, layout, wip
 language: html, js, javascript, css
 ---
 
