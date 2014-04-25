@@ -11,7 +11,7 @@ This challenge asks you to work in teams to collaborate on a group site where ea
 
 1. Fork this repository.
 2. Clone your fork.
-3. cd into folder ♥ `cd challenge-2`
+3. cd into repo folder.
 4. Checkout a new branch with your name on it. make sure the branch name is all lowercase and use hyphens instead of spaces like `your-full-name`.
 5. Open up the code in Sublime Text.
 6. In the index.html page you will locate a link with your name and make  note of the href url `your-name.html`.
