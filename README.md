@@ -1,6 +1,6 @@
 ---
-tags: typography, images, links, git, forking, pull requests, jquery, layout, wip
 language: html, js, javascript, css
+tags: typography, images, links, git, forking, pull requests, jquery, layout, kids
 ---
 
 # Part 1 - Student Directory
